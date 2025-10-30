@@ -7,3 +7,4 @@ data = {
 }
 df = pd.DataFrame(data)
 df = df[df["Age"] > 25]
+df.to_csv("filtered_dataset.csv", index=False)
